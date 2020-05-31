@@ -1,0 +1,49 @@
+@charset "EUC-KR";
+
+
+table{
+	width auto;
+	border-collapse: collapse;
+	text-align:center;
+	
+}
+
+td,th{
+	
+	font-size: 13pt;
+	border:1px solid black;
+	height: 30px;
+	padding: 10px;
+	font-family: Geogia;
+	
+	
+}
+
+th{
+	
+	background-color:#0B173B;
+	color:#ffffff;
+	
+}
+
+tr td{
+	color: #000000;
+	background-color: #EAF2D3;
+}
+
+input{
+	
+	height: 25px;
+	width: 200px;
+	
+	
+}
+
+input[type="submit"],[type="reset"],[type="button"]
+{height:25px; width: 80px;}
+
+
+
+
+
+
