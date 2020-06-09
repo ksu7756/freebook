@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입</title>
+</head>
+<body>
+	<div align="center">
+		<h1>회원가입</h1>
+		<hr>
+		[<a href=login_form.html>로그인</a>]
+		<p>
+		<form name=form1 method=post action=joinin.jsp>
+			<input type=hidden name="action" value="insert">
+			<table border="1">
+				<tr>
+					<th>ID</th>
+					<td><input type="text" name="m_id" maxlength="30"></td>
+				</tr>
+				<tr>
+				<tr>
+					<th>비밀번호</th>
+					<td><input type="password" name="m_pwd" maxlength="20"></td>
+				</tr>
+				<tr>
+					<th>이름</th>
+					<td><input type="text" name="m_name" maxlength="20"></td>
+				</tr>
+				<tr>
+					<th>E-MAIL</th>
+					<td><input type="text" name="m_email"></td>
+				</tr>
+				<tr>
+					<th>전화번호</th>
+					<td><input type="text" name="m_tel"></td>
+				</tr>
+				<tr>
+					<td colspan=2 align=center><input type=submit value="가입">
+					</td>
+				</tr>
+			</table>
+
+
+		</form>
+
+
+
+
+	</div>
+</body>
+</html>

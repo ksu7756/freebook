@@ -21,7 +21,7 @@
 		
 	}else if(action.equals("edit")){
 		FreeBook fbook = fb.getDB(freebook.getFb_id());
-		if(request.getParameter("upasswd").equals("1234") == false){
+		if(request.getParameter("upasswd").equals("7756") == false){
 			out.println("<script>alert('비밀번호가 틀렸습니다!!'); history.go(-1); </script>");
 		}else{
 			request.setAttribute("fb", fbook);
